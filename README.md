@@ -1,6 +1,8 @@
 ZSH2000
 ======
 
+My fork of the ![ZSH2000 theme by maverick9000](https://github.com/maverick9000/zsh2000), augmented by a conda prompt.
+
 ![alt tag](https://raw.githubusercontent.com/maverick9000/zsh2000/master/demo.png)
 
 ![alt tag](https://raw.githubusercontent.com/maverick9000/zsh2000/master/demo2.png)
