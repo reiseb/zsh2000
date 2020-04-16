@@ -73,6 +73,12 @@ prompt_git() {
   fi
 }
 
+prompt_conda() {
+   if [[ ! -z $CONDA_DEFAULT_ENV ]]; then
+      prompt_segment yellow black "$CONDA_DEFAULT_ENV"
+   fi
+}
+
 prompt_dir() {
   prompt_segment blue white '%~'
 }
@@ -104,6 +110,7 @@ prompt_rvm() {
 }
 
 build_prompt() {
+  prompt_conda
   if [ "$ZSH_2000_DISABLE_STATUS" != 'true' ];then
     RETVAL=$?
     prompt_status
