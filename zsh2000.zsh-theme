@@ -75,7 +75,7 @@ prompt_git() {
 
 prompt_conda() {
    if [[ ! -z $CONDA_DEFAULT_ENV ]]; then
-      prompt_segment yellow black "$CONDA_DEFAULT_ENV"
+      prompt_segment white black "($CONDA_DEFAULT_ENV)"
    fi
 }
 
